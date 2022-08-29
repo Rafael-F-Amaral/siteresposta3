@@ -1,0 +1,22 @@
+.DownNuvem{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.accord{
+    font-size: 20px;
+}
+
+.mb-3, .test{
+    font-size: 15px;
+
+}
+
+.mb-3 {
+    margin-top: -15px;
+    
+}
+
+.accord > li > a {
+    text-decoration: none;
+}

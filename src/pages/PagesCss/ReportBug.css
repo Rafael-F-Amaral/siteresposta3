@@ -1,0 +1,55 @@
+.pix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+.hyperlink {
+    text-decoration: none;
+    color: rgb(0, 213, 14);
+}
+.error{
+    margin-top: 20px;
+    width: 60%;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.container-pix {
+    width: 700px;
+    margin: auto;
+}
+
+
+.red-span {
+    color: red;
+}
+
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.word {
+    margin-top: 5px;
+    width: 70%;
+    height: 100%;
+    background-color: #060b26;
+}
+
+
+.whats{
+    width: 25px;
+    margin-bottom: -5px;
+}
+
+
