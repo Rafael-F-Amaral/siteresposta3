@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { ADG1q1, ADG2q1, ADG3q1, ADG4q1 } from '../../Components/abasRespostas/LogicaQuestoes/TabsQuestoes/Adg1Logica/Adg1Logica'
+import { ADG1q1, ADG2q1, ADG3q1, ADG4q1 } from './LogicaQuestoes/TabsQuestoes/AdgLogica/Adg1Logica/Adg1Logica'
 
 
 const ADG = () => {
@@ -28,10 +28,9 @@ const ADG = () => {
         </Tab>
       </Tabs>
 
-
-
-
     </div >
+
+    
 
 
   )
