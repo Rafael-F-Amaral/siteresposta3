@@ -1,0 +1,44 @@
+.Logotype {
+    max-width: 180px;
+    margin-left: 1px;
+
+}
+
+
+
+.MenuContainer {
+    max-width: 960px;
+    padding: 0 20px;    
+}
+.ContainerButtonMenu{
+    margin-right: 1px;
+
+}
+
+@media only screen and (max-width: 400px){
+    .Logotype{
+        max-width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+
+    }
+    .ContainerButtonMenu{
+        margin: auto;
+
+    }
+    .MenuContainer{
+        padding-bottom: 30px;
+
+    }
+}
+@media only screen and (max-width: 300px){
+    .Logotype{
+        max-width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+
+    }
+    .MenuContainer{
+        padding-bottom: 30px;
+    }
+}

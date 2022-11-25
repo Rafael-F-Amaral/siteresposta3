@@ -1,0 +1,57 @@
+.ContentSidebarMenu {
+    border-top: 2px #E7E7FF solid;
+    margin: 0 20px;
+}
+
+.ContentSidebarMenu>div>div>ul {
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+}
+
+.ContentSidebarMenu>div>div>ul>div {
+    margin: auto;
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.ContentSidebarMenu>div>div>ul>div>h3 {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.ContentSidebarMenu>div>ul>div>h3 {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.SideBarMenuBody {
+    padding: 10px 20px;
+    background-color: #E7E7FF;
+    font-size: 18px;
+}
+
+
+
+
+.ContentMenu>div>div, .div {
+    border-Top: 2px #E7E7FF solid;
+}
+.ContentMenu>div>div>ul{
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+}
+
+.ContentMenu>div>div>ul>div{
+    margin: auto;
+    font-size: 18px;
+    padding: 0;
+    width: 100%;
+}
+.ContentMenu>div>div>ul>div>h3{
+    font-size: 18px;
+    padding-top: 5px;
+}

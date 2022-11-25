@@ -1,0 +1,102 @@
+.ContainerPix {
+    margin: auto;
+    max-width: 960px;
+    background-color: #D4D3F6;
+    box-shadow: 0 1px 10px gray;
+    margin-top: 60px;
+    text-align: center;
+    color: #300175;
+    padding: 10px 0;
+}
+
+.ContainerPix>h1 {
+    margin-top: 20px;
+}
+
+.ContentPix>div>div>div>p {
+    width: 500px;
+    margin: auto;
+    font-size: 25px;
+}
+
+.ContentP {
+    margin-top: 20px;
+
+}
+
+.imagePix {
+    max-width: 250px;
+
+}
+
+.ContentPix>div>div>div>h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -40px;
+
+}
+
+.ButtonPix {
+    background-color: #5C00FF;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px lightgray;
+    border: 0px;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.ContentButtonPix {
+    margin-top: 20px;
+}
+
+.ButtonPix:hover {
+    background-color: #4300b6;
+    transition: ease background-color 250ms;
+}
+
+
+.ButtonPix:visited {
+    color: rgb(255, 0, 0);
+
+}
+
+@media only screen and (max-width: 550px) {
+    .ContentButtonPix {
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .ContentPix>div>div>div>p {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .ContentPix>div>div>div>h3 {
+        font-size: 20px;
+
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .ContentPix>div>div>div>p {
+        max-width: 280px;
+        font-size: 16px;
+    }
+
+    .ContentPix>div>div>div>h3 {
+        font-size: 20px;
+
+    }
+
+}

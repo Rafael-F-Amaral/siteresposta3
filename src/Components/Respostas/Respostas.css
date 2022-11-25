@@ -1,0 +1,357 @@
+.ContainerRespostas>div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    max-width: 960px;
+    margin: auto;
+
+}
+
+.GridResposta {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: -50px 0;
+    max-width: 720px;
+
+}
+
+div>.GridResposta {
+    margin-top: 5px;
+
+}
+
+.ContentQuestoes {
+    max-width: 840px;
+    background-color: #D4D3F6;
+    box-shadow: 0 1px 10px gray;
+    margin: auto;
+    height: 800px;
+    border-radius: 5px;
+
+}
+
+.ContentResposta {
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+
+}
+
+.ContentResposta>div {
+    text-align: center;
+}
+
+.ContentResposta>h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.ContentResposta>h2 {
+    font-size: 24px;
+    text-align: center;
+
+
+}
+
+.ContentResposta>p {
+    font-size: 20px;
+    width: 570px;
+    text-align: justify;
+}
+
+.ContentResposta>ul>li {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+
+
+
+
+.ContentQuestoes>div {
+    max-width: 620px;
+    margin: auto;
+}
+
+.ContentQuestoes>div>div {
+    max-width: 720px;
+    margin: auto;
+}
+
+.ContentButton>.Av {
+    width: 700px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+}
+
+
+.ContentButton>ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 5px;
+    max-width: 820px;
+
+}
+
+.ContentButton2 {
+    justify-items: center;
+}
+
+.ContentButton2>ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px;
+    max-width: 290px;
+    margin: auto;
+}
+
+
+.ContentAlternativas {
+    padding: 0px;
+}
+
+
+.teste {
+    margin: auto;
+    height: 60px;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+/*MENUUUUUUU*/
+
+.ContentMenu {
+    background-color: #D4D3F6;
+    padding-top: 40px;
+    box-shadow: -15px -3px 18px -15px gray, 15px -3px 18px -14px gray;
+    max-width: 200px;
+    margin-bottom: -85px;
+    border-radius: 5px;
+}
+
+.ContentMenu>div>h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.ContentMenu>div {
+    max-width: 200px;
+}
+
+
+@media only screen and (max-width: 930px) {
+    .ContentMenu {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .ContentMenu {
+        margin-left: 10px;
+    }
+
+    .ContentQuestoes {
+        margin: 0 15px;
+        margin: auto;
+    }
+
+    .ContentButton {
+        justify-items: center;
+
+    }
+
+    .ContentButton>.Av>li {
+        width: 80px;
+        gap: 20px;
+    }
+
+    .ContentButton>.Av {
+        gap: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width: 896px) {
+    .ContainerFooter {
+        margin-top: 270px;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .ContentQuestoes {
+        margin: 0;
+        width: 620px;
+        margin-right: 10px;
+    }
+
+    .ContentButton>.Av>li {
+        width: 30px;
+    }
+
+    .ContentButtonRespostaAv {
+        width: 100px;
+        gap: -80px;
+        font-size: 14px;
+
+    }
+
+    .ContentButton>.Av {
+        gap: 70px;
+        width: 600px;
+        justify-items: baseline;
+    }
+
+    .ContentButtonResposta {
+        font-size: 16px;
+
+    }
+
+    .ContentButton2>ul {
+        justify-items: center;
+        max-width: 240px;
+        margin: auto;
+        margin-left: 155px;
+    }
+
+    .ContentButton2>ul>li {
+        justify-items: center;
+        width: 420px;
+        font-size: 30px;
+    }
+
+    .ContentButton2 {
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .ContentQuestoes {
+        margin: 0;
+        max-width: 600px;
+        margin-right: 10px;
+    }
+
+    .ContentResposta>p {
+        font-size: 20px;
+        max-width: 530px;
+        margin: auto;
+    }
+
+    .ContentAlternativas>li {
+        margin: auto;
+        max-width: 550px;
+        padding-left: 40px;
+    }
+
+    .ContentButtonResposta {
+        font-size: 16px;
+        width: 120px;
+
+    }
+
+    .ContentButtonRespostaAv {
+        font-size: 16px;
+        width: 100px;
+        margin: auto;
+        font-size: 14px;
+
+    }
+
+    .ContentButton>.Av {
+        gap: 70px;
+        
+    }
+
+    .ContentButton>ul {
+        max-width: 550px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 776px) {
+    .ContentButtonResposta {
+        width: 110px;
+        margin: 0 -20px;
+    }
+
+    .ContentButton2>ul {
+        margin: auto;
+        max-width: 265px;
+    }
+
+    .ContentResposta>p {
+        font-size: 18px;
+        width: 500px;
+        text-align: justify;
+    }
+
+    .ContentResposta>ul>li {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+
+    .ContentMenu {
+        margin: 0 10px;
+    }
+
+    .ContentMenu>ul {
+        font-size: 15px;
+
+    }
+
+    .ContentMenu>div>h3 {
+
+        font-size: 20px;
+    }
+
+    .ContentMenu>div>div>ul>div {
+        font-size: 15px;
+    }
+
+    .ContainerFooter {}
+
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .ContentMenu>div>div>ul>div {
+        font-size: 14px;
+    }
+
+    .ContentMenu>div>div>ul>div>li {
+        margin: 4px 0;
+    }
+
+    .ContentMenu>div>h3 {
+
+        font-size: 20px;
+    }
+
+    .ContentMenu>div>div>ul>div>h3 {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+
+    .ContentMenu>div>h3 {
+
+        font-size: 19px;
+    }
+
+    .ContentMenu>div>div>ul>div>h3 {
+        font-size: 14px;
+    }
+}
