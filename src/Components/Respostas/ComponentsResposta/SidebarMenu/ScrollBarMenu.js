@@ -1,22 +1,21 @@
 import './SidebarMenu.css'
 import React from 'react'
-import { Link} from 'react-router-dom'
-
+import { Link, Outlet, Route } from 'react-router-dom'
+import ButtonResposta from '../../ButtonResposta'
 import '../../Respostas.css'
-
-
+import SideBarMenu from '../SidebarMenu/SidebarMenu'
+import Pix from '../../../Pix/Pix'
 
 const SidebarMenu = (props) => {
     return (
         <div>
-
             <div>
-                <section className='ContentMenu'>
-                    <div>
-                        <h3>MENU</h3>
-                        <div>
-                            <ul>
-                                <div style={{ textAlign: 'center' }}>
+                <section className='ContentMenu2' >
+                <h3 style={{ textAlign: 'center' }}>MENU</h3>
+                    <div className='ScrollBar' >
+                        <div >
+                            <ul >
+                                <div style={{ textAlign: 'center' }} >
 
                                     <h3>Análise Orientada a Objetvo</h3>
                                 </div>
@@ -74,7 +73,7 @@ const SidebarMenu = (props) => {
                         <div >
                             <ul >
                                 <div className='div1' style={{ textAlign: 'center' }}>
-                                    <h3>Programação e Desenvolvimento de Banco de Dados</h3></div>
+                                    <h3>Prog. e Desenv. de Banco de Dados</h3></div>
                                 <div style={{ padding: '10px 20px ', backgroundColor: '#E7E7FF' }}>
                                     <li>
                                         <Link to='atvaprendizbancodados/bancodadosapp1/questao1aprendizagembancodados'>
@@ -155,7 +154,7 @@ const SidebarMenu = (props) => {
                         <div>
                             <ul>
                                 <div className='div1' style={{ textAlign: 'center' }}>
-                                    <h3 >Ed - Design Think</h3></div>
+                                    <h3 >Educação Digital - Design Think</h3></div>
                                 <div style={{ padding: '10px 20px ', backgroundColor: '#E7E7FF' }}>
                                     <li>
                                         <Link to='atvaprendizdesign/designapp1/questao1aprendizagemdesign'>

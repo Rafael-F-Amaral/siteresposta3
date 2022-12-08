@@ -1,11 +1,13 @@
-.ContainerButtonResposta, .ContentButtonRespostaAv {
+.ContainerButtonResposta,
+.ContentButtonRespostaAv {
     max-width: 120px;
 
 
 }
 
 
-.ContentButtonResposta, .ContentButtonRespostaAv {
+.ContentButtonResposta,
+.ContentButtonRespostaAv {
     background-color: #5C00FF;
     color: white;
     border-radius: 5px;
@@ -20,10 +22,184 @@
     font-size: 15px;
     text-align: center;
     border-radius: 5px;
+}
+
+.ContentButtonResposta:hover,
+.ContentButtonRespostaAv:hover {
+    background-color: #4300b6;
+    transition: ease background-color 250ms;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 896px) {
+    .ContentButtonRespostaAv {
+        width: 105px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 799px) {
+    .ContentButtonRespostaAv {
+        width: 85px;
+    }
+
+    .Av>li {
+        width: 83px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 690px) {
+    .ContentButtonRespostaAv {
+        width: 100px;
+
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .ContentButtonRespostaAv {
+        width: 100px;
+    }
+
+    .ContentButtonResposta {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .ContentButtonRespostaAv {
+        width: 95px;
+    }
+
+    .ContentButtonResposta {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    .ContentButtonRespostaAv {
+        width: 90px;
+        font-size: 14px;
+    }
+
+    .ContentButtonResposta {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 519px) {
+    .ContentButtonRespostaAv {
+        width: 85px;
+        font-size: 13px;
+    }
+
+    .ContentButtonResposta {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .ContentButtonRespostaAv {
+        width: 80px;
+        font-size: 14px;
+        padding: 0 2px;
+    }
+
+    .ContentButtonResposta {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+
+    .ContentButtonResposta {
+        width: 90px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 464px) {
+
+    .ContentButtonRespostaAv {
+        width: 75px;
+        font-size: 13px;
+    }
+
+    .ContentButtonResposta {
+        width: 90px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+
+    .ContentButtonResposta {
+        width: 90px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+
+    .ContentButtonRespostaAv {
+        width: 70px;
+        font-size: 12px;
+    }
+
+    .ContentButtonResposta {
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+
+    .ContentButtonRespostaAv {
+        width: 60px;
+        font-size: 11px;
+    }
+
+    .ContentButtonResposta {
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .ContentButtonResposta {
+        width: 70px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 364px) {
+
+    .ContentButtonRespostaAv {
+        width: 60px;
+        font-size: 10px;
+    }
 
 }
 
-.ContentButtonResposta:hover, .ContentButtonRespostaAv:hover {
-    background-color: #4300b6;
-    transition: ease background-color 250ms;
+@media only screen and (max-width: 354px) {
+
+    .ContentButtonRespostaAv {
+        width: 55px;
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 334px) {
+
+    .ContentButtonResposta {
+        width: 60px;
+        font-size: 11px;
+    }
+
+    .ContentButtonRespostaAv {
+        width: 50px;
+        font-size: 9px;
+    }
 }

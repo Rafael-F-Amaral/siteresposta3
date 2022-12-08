@@ -23,8 +23,8 @@ const AvVirtualAnalise = (props) => {
             <div>
 
               <div className='ContentButton2'>
-                <ul>
 
+                <ul>
                   <NavLink to='av1analisevirtual/questao1virtual'>
                     <li>
                       <ButtonResposta
@@ -38,11 +38,8 @@ const AvVirtualAnalise = (props) => {
                     />
                     </li>
                   </Link>
-
-
-
-
                 </ul>
+
                 <Outlet />
               </div>
             </div>

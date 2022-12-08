@@ -9,7 +9,6 @@
     color: black;
     list-style: none;
     text-decoration: none;
-    color: #5C00FF;
 
 }
 
@@ -27,16 +26,21 @@ h5 {
 }
 
 a {
-    text-decoration: none;
-    color: #5C00FF;
-  }
-  
+    text-decoration: none !important;
+    color: #5C00FF !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    transition: ease background-color 250ms;
+}
+
 
 li,
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    
+
 
 }
 

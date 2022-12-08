@@ -7,6 +7,8 @@
     font-size: 16px;
     padding: 0;
     width: 100%;
+
+
 }
 
 .ContentSidebarMenu>div>div>ul>div {
@@ -15,6 +17,7 @@
     padding: 0;
     width: 100%;
     text-align: center;
+
 }
 
 .ContentSidebarMenu>div>div>ul>div>h3 {
@@ -43,6 +46,7 @@
     font-size: 16px;
     padding: 0;
     width: 100%;
+    text-align: center;
 }
 
 .ContentMenu>div>div>ul>div{
@@ -54,4 +58,7 @@
 .ContentMenu>div>div>ul>div>h3{
     font-size: 18px;
     padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
