@@ -12,7 +12,7 @@ const Pix = () => {
         <div>
           <div>
             <div className='ContentP'>
-              <p>A todos que ajudarem, muito obrigado! Vocês são o pilar da comunidade. Qualquer valor é muito importante e todos terão um lugar no meu coração! </p>
+              <p>A todos que ajudarem, muito obrigado! Vocês são o pilar da comunidade. Qualquer valor é muito importante e todos terão um lugar no meu coração!ssssss </p>
             </div>
             <div>
               <img className='imagePix'
