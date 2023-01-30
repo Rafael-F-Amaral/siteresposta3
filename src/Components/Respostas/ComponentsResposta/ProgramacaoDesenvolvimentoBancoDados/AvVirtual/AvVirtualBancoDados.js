@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import ButtonResposta from '../../../ButtonRespostaAv'
-import AlternativasProps from './AlternativasProps'
-import SideBarMenu from '../../SidebarMenu/SidebarMenu'
 import RespostasDATA from '../../../../ArraysRespostas/AnáliseOrientadaAoObjetoDATA/AvVirtual/Av2/Questao1DATA'
 
 const AvVirtualAnalise = (props) => {

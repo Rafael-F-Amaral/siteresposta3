@@ -1,4 +1,10 @@
-.ContainerBody{
+.ContainerBody {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper> a:hover {
+
+    text-decoration: none !important;
+    transition: ease background-color 250ms;
 }

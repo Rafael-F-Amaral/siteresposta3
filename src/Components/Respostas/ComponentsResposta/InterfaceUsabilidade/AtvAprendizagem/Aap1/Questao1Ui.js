@@ -6,7 +6,7 @@ import RespostasDATA from '../../../../../ArraysRespostas/InterfaceUsabilidade/A
 const Questao1Analise = () => {
     return (
         <div>
-            {RespostasDATA.map(({ item, id, index, titulo, questaonumero, enunciado, alternativas, questao1, questao2, questao3, questao4, questao5 }) => (
+            {RespostasDATA.map(({ item, id, index, titulo, questaonumero, enunciado, alternativas, questao1, questao2, questao3, questao4, questao5, correto1, correto2, correto3, correto4, correto5 }) => (
                 <div className='ContentQuestoes'>
                     <div>
                         <div className='ContentResposta'>

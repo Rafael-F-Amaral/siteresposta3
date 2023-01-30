@@ -5,40 +5,53 @@
 }
 
 
+.NotificationMenu {
+    margin: auto;
+    margin-top: 5px;
+
+}
+
+
 
 .MenuContainer {
     max-width: 960px;
-    padding: 0 20px;    
-}
-.ContainerButtonMenu{
-    margin-right: 1px;
-
+    padding: 0 20px;
 }
 
-@media only screen and (max-width: 400px){
-    .Logotype{
+.ContainerButtonMenu {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+    .Logotype {
         max-width: 100%;
         margin: auto;
         padding-bottom: 30px;
 
     }
-    .ContainerButtonMenu{
+
+    .ContainerButtonMenu {
         margin: auto;
 
     }
-    .MenuContainer{
+
+    .MenuContainer {
         padding-bottom: 30px;
 
     }
 }
-@media only screen and (max-width: 300px){
-    .Logotype{
+
+@media only screen and (max-width: 300px) {
+    .Logotype {
         max-width: 100%;
         margin: auto;
         padding-bottom: 30px;
 
     }
-    .MenuContainer{
+
+    .MenuContainer {
         padding-bottom: 30px;
     }
 }

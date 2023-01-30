@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../Pix/Pix.css'
 
-export default function CopyBtnDemo({ textToCopy = '5f4001b8-82a7-4ab7-9399-b9de9186d3ab' }) {
+export default function CopyBtnDemo({ textToCopy = '80e8d474-3373-41d9-9ba4-ce8e1acc0892' }) {
     const [copied, setCopied] = useState(false);
 
     const copyToClipboard = () => {
@@ -28,7 +28,7 @@ export default function CopyBtnDemo({ textToCopy = '5f4001b8-82a7-4ab7-9399-b9de
                 className="ButtonPix"
                 onClick={copyToClipboard}
             >
-                {copied ? "COPIADO!" : "COPIAR PIX"}
+                {copied ? "COPIADO COM SUCESSO! !" : "COPIAR PIX"}
             </button>
         </div>
     );

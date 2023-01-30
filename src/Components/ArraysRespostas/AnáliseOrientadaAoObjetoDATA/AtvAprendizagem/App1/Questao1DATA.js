@@ -7,6 +7,11 @@ const RespostasDATA = [
         ,
         id: '0'
         ,
+        
+        correto1: '1 - Lorem Ipsum 1 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry '
+        ,
+        correto2: '1 - Lorem Ipsum 1 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry '
+        ,
 
 
         questaonumero: 'Questão 1',
@@ -21,7 +26,7 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '1 - Lorem Ipsum 1 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        questao1: '',
         id: '4'
         ,
 
@@ -37,8 +42,7 @@ const RespostasDATA = [
         id: '7'
         ,
 
-        questao5: '1 Lorem Ipsum 1 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-        id: '8'
+
     }
 
 

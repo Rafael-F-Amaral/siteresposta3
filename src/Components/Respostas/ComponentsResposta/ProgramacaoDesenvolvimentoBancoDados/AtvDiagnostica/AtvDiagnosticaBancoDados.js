@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import ButtonResposta from '../../../ButtonResposta'
-import AlternativasProps from './AlternativasProps'
-import SideBarMenu from '../../SidebarMenu/SidebarMenu'
 
 const AtvAprendizagem = (props) => {
   return (

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import ButtonResposta from '../../../../ButtonRespostaAv'
-import AlternativasProps from '../AlternativasProps'
 
 
 const Aap1 = () => {

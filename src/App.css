@@ -30,7 +30,7 @@ a {
     color: #5C00FF !important;
 }
 
-a:hover {
+.teste:hover {
     text-decoration: underline !important;
     transition: ease background-color 250ms;
 }
