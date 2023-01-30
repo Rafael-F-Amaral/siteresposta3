@@ -12,7 +12,7 @@ export const Notification = ({ iconColor, badgeContent }) => {
   return (
 
     <div className='NotificationMenu'>
-
+      <Link to='alert'>
       <Tooltip title="Atualizações do site">
         <IconButton
           color="iconColor">
@@ -26,13 +26,13 @@ export const Notification = ({ iconColor, badgeContent }) => {
           </Badge>
         </IconButton>
       </Tooltip>
-
+      </Link>
 
       <Link to='pix'>
         <Tooltip title="Ajude o site com um pix!">
           <IconButton color="iconColor">
             <Badge
-              badgeContent={1}
+              badgeContent={2}
               color="error"
             >
               <PixIcon sx={{ fill: 'green' }} />
@@ -41,11 +41,11 @@ export const Notification = ({ iconColor, badgeContent }) => {
         </Tooltip>
       </Link>
 
-      <Link to='pix'>
+      <Link to='calendar'>
         <Tooltip title="Vencimento de matérias e provas">
           <IconButton>
             <Badge
-              badgeContent={2}
+              badgeContent={1}
               color="error"
             >
               <CalendarMonthIcon sx={{ fill: 'blue' }} />

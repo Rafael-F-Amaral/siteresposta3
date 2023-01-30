@@ -6,9 +6,9 @@ import RespostasDATA from '../../../../../ArraysRespostas/AnáliseOrientadaAoObj
 const Questao1Analise = () => {
     return (
         <div>
-            {RespostasDATA.map(({ item, id, index, titulo, questaonumero, enunciado, alternativas, questao1, questao2, questao3, questao4, questao5, correto1, correto2, correto3, correto4, correto5 }) => (
+            {RespostasDATA.map(({ item, id, index, titulo, questaonumero, enunciado, alternativas, questao1, questao2, questao3, questao4, questao5, correto1, correto2, correto3, correto4, correto5 }) =>
+            (
                 <div>
-
                     <div className='ContentResposta ContentQuestoes'>
 
                         <div

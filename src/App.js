@@ -529,8 +529,10 @@ import Questao2VirtualDesign2 from './Components/Respostas/ComponentsResposta/Ed
 import Questao3VirtualDesign2 from './Components/Respostas/ComponentsResposta/EdDesignThink/AvVirtual/Av2/Questao3Design';
 import Questao4VirtualDesign2 from './Components/Respostas/ComponentsResposta/EdDesignThink/AvVirtual/Av2/Questao4Design';
 import Questao5VirtualDesign2 from './Components/Respostas/ComponentsResposta/EdDesignThink/AvVirtual/Av2/Questao5Design';
+import Alerts from './Components/Body/Menu/Alerts/Alerts';
 /* Avaliação Virtual*/
 
+import Calendar from './Components/Body/Menu/Calendar/Calendar'
 
 
 
@@ -545,6 +547,8 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='pix' element={<Pix />} />
           <Route path='*' element={<Error />} />
+          <Route path='alert' element={<Alerts />} />
+          <Route path='calendar' element={<Calendar />} />
 
           <>
             <Route path='resposta/atvaprendizagemanalise/analiseaap1' element={<Error />} />
