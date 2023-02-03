@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../Pix/Pix.css'
 
 export default function CopyBtnDemo({ textToCopy = '80e8d474-3373-41d9-9ba4-ce8e1acc0892' }) {
+
     const [copied, setCopied] = useState(false);
 
     const copyToClipboard = () => {
@@ -17,7 +18,10 @@ export default function CopyBtnDemo({ textToCopy = '80e8d474-3373-41d9-9ba4-ce8e
                 console.log("failed to copy", err.mesage);
             }
         );
+
     };
+
+
 
     const btnStyle = copied ? "" : "";
 
