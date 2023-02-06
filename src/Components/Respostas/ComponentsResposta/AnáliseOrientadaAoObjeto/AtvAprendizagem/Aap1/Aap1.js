@@ -2,6 +2,8 @@ import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import ButtonResposta from '../../../../ButtonResposta'
 import AlternativasProps from '../AlternativasProps'
+<html>
+
 
 
 const Aap1 = () => {
@@ -12,7 +14,7 @@ const Aap1 = () => {
                     <li>
                         <Link to='questao1analise ' >
                             <ButtonResposta
-                            
+
                                 questao='questão 1'
                             />
                         </Link>
@@ -36,7 +38,7 @@ const Aap1 = () => {
                     </li>
 
                     <li>
-                        <Link  to='questao4analise'>
+                        <Link to='questao4analise'>
                             <ButtonResposta
                                 questao='questão 4'
                             />
