@@ -50,7 +50,7 @@ const Footer = () => {
                             <Link
                                 onClick={handleClick}
 
-                                className='teste' to='resposta/atvaprendizprogramacao/programacaoapp1/questao1aprendizagemprogramacao'>Linguagemssss de Programação</Link><br /></p>
+                                className='teste' to='resposta/atvaprendizprogramacao/programacaoapp1/questao1aprendizagemprogramacao'>Linguagem de Programação</Link><br /></p>
 
                         <p>
                             <Link
