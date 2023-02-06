@@ -32,37 +32,37 @@ const Footer = () => {
                             <Link
                                 onClick={handleClick}
 
-                                className='teste' to='resposta/atvaprendizagemanalise/analiseaap1/questao1analise'>Análise Orientada a Objetvo</Link><br /></p>
+                                className='teste' to='resposta/av1analisevirtual1/av1analisevirtual/questao1virtual'>Análise Orientada a Objetvo</Link><br /></p>
 
                         <p>
                             <Link
                                 onClick={handleClick}
 
-                                className='teste' to='resposta/atvaprendizlinguagem/linguagemapp1/questao1aprendizagemlinguagem'>Linguagem Orientada a Objetvo</Link> <br /></p>
+                                className='teste' to='resposta/av1linguagemvirtual1/av1linguagemvirtual2/questao1virtuallinguagem'>Linguagem Orientada a Objetvo</Link> <br /></p>
 
                         <p>
                             <Link
                                 onClick={handleClick}
 
-                                className='teste' to='resposta/atvaprendizbancodados/bancodadosapp1/questao1aprendizagembancodados'>Programação e Desenvolvimento de Banco de Dados</Link><br /></p>
+                                className='teste' to='resposta/av1bancodadosvirtual1/av1bancodadosvirtual2/questao1virtualbancodados'>Programação e Desenvolvimento de Banco de Dados</Link><br /></p>
 
                         <p>
                             <Link
                                 onClick={handleClick}
 
-                                className='teste' to='resposta/atvaprendizprogramacao/programacaoapp1/questao1aprendizagemprogramacao'>Linguagem de Programação</Link><br /></p>
+                                className='teste' to='resposta/av1programacaovirtual1/av1programacaovirtual2/questao1virtualprogramacao'>Linguagem de Programação</Link><br /></p>
 
                         <p>
                             <Link
                                 onClick={handleClick}
 
-                                className='teste' to='resposta/atvdiagnosticaui/adg1diagnosticui/questao1diagnosticui'>Interface e Usabilidade</Link><br /></p>
+                                className='teste' to='resposta/av1uivirtual1/av1uivirtual2/questao1virtualui'>Interface e Usabilidade</Link><br /></p>
 
                         <p>
                             <Link
                                 onClick={handleClick}
 
-                                className='teste' to='resposta/atvdiagnosticadesign/adg1diagnosticdesign/questao1diagnosticdesign'> Ed - Design Think</Link><br /></p>
+                                className='teste' to='resposta/av1designvirtual1/av1designvirtual2/questao1virtualdesign'> Ed - Design Think</Link><br /></p>
 
 
                     </p>

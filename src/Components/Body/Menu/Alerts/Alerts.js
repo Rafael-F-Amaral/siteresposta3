@@ -23,8 +23,21 @@ const Alerts = () => {
                                     </li>
 
                                     <li>
+                                        <span style={{ textDecoration: 'underline' }}>
+                                            06 Março/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <h4 style={{ fontWeight: '600' }}>Menus dos módulos ADG e AAP removidos por tempo inderteminado!</h4>
+                                                <lu>
+                                                    <li>Motivo:<br /> A faculdade não disponibilizará exercícios esse semestre.</li>
+                                                </lu>
+                                            </li>
 
+                                        </lu>
                                     </li>
+
+                                    <hr />
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
@@ -38,7 +51,7 @@ const Alerts = () => {
                                         </lu>
                                     </li>
 
-                                    <hr  />
+                                    <hr />
 
                                     <li>
 
@@ -61,7 +74,7 @@ const Alerts = () => {
                                             <li>
                                                 <h5>Optativa</h5>
                                             </li>
-                                            <hr  className='Divider' />
+                                            <hr className='Divider' />
                                             <li>
                                                 <h4 style={{ fontWeight: '600' }}>Site Auxiliares disponíveis</h4>
                                             </li>

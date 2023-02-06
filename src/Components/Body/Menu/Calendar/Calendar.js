@@ -3,7 +3,7 @@ import React from 'react'
 const Calendar = () => {
     return (
         <div className='ContainerPix'>
-            <h2>Calendário de Atividades</h2>
+            <h2>CRONOGRAMA</h2>
             <div className='ContentPix'>
                 <div>
                     <div>
@@ -23,35 +23,98 @@ const Calendar = () => {
                                     </li>
 
                                     <li>
-
+                                        <h4 style={{ fontWeight: '600', textDecoration: 'underline' }}>FEVEREIRO/2023</h4>
                                     </li>
+                                    <li><span style={{ textDecoration: 'underline', fontWeight: '600' }}>06/02</span> - Abertura do 3° Semestre Letivo</li>
 
-                                    <li>
-                                        <span style={{ textDecoration: 'underline' }}>
-                                            Fevereiro/2023
-                                        </span>
-                                        <lu>
-                                            <li>
-                                                <h4 style={{ fontWeight: '600' }}>Análise Orientado ao Objeto</h4>
-                                            </li>
-                                            <li>07 á 12 - Avaliação Virtual</li>
-
-                                            <hr className='Divider' />
-
-
-                                            <li>
-                                                <h4 style={{ fontWeight: '600' }}>Banco de Dados</h4>
-                                            </li>
-                                            <li>06 - Abertura do 3° Semestre Letivo</li>
-                                            <li>07 á 12 - Avaliação Virtual</li>
-                                        </lu>
-                                    </li>
                                     <hr className='Divider' />
 
                                     <li>
-                                        <h4 style={{ fontWeight: '600' }}>Início do Semestre Letivo 2023</h4>
+                                        <span style={{ textDecoration: 'underline', fontWeight: '600' }}>
+                                            MARÇO/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>06/03 a 11/03 </span>
+                                                - Semana de Prova para a 1ª Chamada -
+                                                SEQUÊNCIA 1
+                                            </li>
+
+                                            <hr className='Divider' />
+
+                                        </lu>
                                     </li>
-                                    <li>06 - Abertura do 3° Semestre Letivo</li>
+
+                                    <li>
+                                        <span style={{ textDecoration: 'underline', fontWeight: '600' }}>
+                                            ABRIL/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>10/04 A 15/04 </span>
+                                                Semana de Prova para a 1ª Chamada -
+                                                SEQUÊNCIA 2
+                                            </li>
+
+                                            <hr className='Divider' />
+
+                                        </lu>
+                                    </li>
+
+                                    <li>
+                                        <span style={{ textDecoration: 'underline', fontWeight: '600' }}>
+                                            MAIO/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>08/05 a 13/05 </span>
+                                                Semana de Prova para a 1ª Chamada -
+                                                SEQUÊNCIA 3
+                                            </li>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>15/05 a 27/05 </span>
+                                                Semanas de Prova para a 1ª Chamada -
+                                                PARALELA ONLINE/ ADAPTAÇÃO E DEPENDÊNCIA
+                                            </li>
+
+                                            <hr className='Divider' />
+
+                                        </lu>
+                                    </li>
+
+                                    <li>
+                                        <span style={{ textDecoration: 'underline', fontWeight: '600' }}>
+                                            JUNHO/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>29/05 a 03/06 </span>
+                                                - Semana de Prova para a 1ª chamada -
+                                                SEQUÊNCIA 4
+                                            </li>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>12/06 a 17/06 </span>
+                                                - Semana de Prova para a 2ª CHAMADA de TODAS
+                                                AS DISCIPLINAS
+                                            </li>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>19/06 a 21/06 </span>
+                                                - Semana de Prova para a RECUPERAÇÃO de
+                                                TODAS AS DISCIPLINAS
+                                            </li>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>21/06 </span>
+                                                - Fim do Período Letivo 2023.1
+                                            </li>
+                                            <li>
+                                                <span style={{ textDecoration: 'underline', fontWeight: '600' }}>29/06</span>
+                                                - Divulgação do Boletim
+                                            </li>
+
+                                            <hr className='Divider' />
+
+                                        </lu>
+                                    </li>
 
 
 

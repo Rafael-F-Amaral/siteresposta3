@@ -16,7 +16,7 @@ const Body = () => {
 
         <a className='CardStyle' href='https://linktr.ee/SiteResposta' target="_blank" rel="noreferrer">
           <Card
-            download='DOWNLOADS DE LIVROS'
+            download='LIVROS E SITES ANTIGOS'
             textDownload='Aqui você encontrará download dos livros atuais e semestres passados, aulas, videoaulas e documentos gerais sobre programação.'
             ButtonDownload='downloads'
           />
@@ -33,7 +33,7 @@ const Body = () => {
 
         <a className='CardStyle' href='https://linktr.ee/SiteResposta' target='_blank' rel="noreferrer" style={{ textDecoration: 'none !important' }}>
           <Card
-            download='DATAS LETIVAS 3º SEMESTRE'
+            download='DOWNLOAD VIDEOAULAS'
             textDownload='Aqui você encontrará download dos livros atuais e semestres passados, aulas, videoaulas e documentos gerais sobre programação.'
             ButtonDatas='datas'
           />
@@ -44,3 +44,10 @@ const Body = () => {
 }
 
 export default Body
+
+
+
+
+
+
+

@@ -13,7 +13,7 @@ export const Notification = ({ iconColor, badgeContent }) => {
 
     <div className='NotificationMenu'>
       <Link to='alert'>
-      <Tooltip title="Atualizações do site">
+      <Tooltip title="ATUALIZAÇÕES">
         <IconButton
           color="iconColor">
           <Badge
@@ -29,7 +29,7 @@ export const Notification = ({ iconColor, badgeContent }) => {
       </Link>
 
       <Link to='pix'>
-        <Tooltip title="Ajude o site com um pix!">
+        <Tooltip title="FAÇA UM PIX">
           <IconButton color="iconColor">
             <Badge
               badgeContent={2}
@@ -42,7 +42,7 @@ export const Notification = ({ iconColor, badgeContent }) => {
       </Link>
 
       <Link to='calendar'>
-        <Tooltip title="Vencimento de matérias e provas">
+        <Tooltip title="CRONOGRAMA">
           <IconButton>
             <Badge
               badgeContent={1}

@@ -6,7 +6,7 @@ const Button = (props) => {
   return (
 
     <div>
-      <Link to='resposta/atvaprendizagemanalise/analiseaap1/questao1analise'>
+      <Link to='resposta/av1analisevirtual1/av1analisevirtual/questao1virtual'>
         <button className='ButtonMenu'>
           {props.ButtonRespostas}
         </button>
