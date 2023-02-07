@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'Basicamente no Processo Unificado, os processos descrevem ________________é o responsável por fazer um determinado artefato (______________), como serão executadas as tarefas e ________________.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) quando, (quem), o quê',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) quando, (o quê), quem',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) quem, (quando), o quê',
         id: '6'
         ,
 
-        questao4: '',
+        correto4: 'd) quem, (o quê), quando',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) o quê, (quem), quando',
         id: '8'
     }
 

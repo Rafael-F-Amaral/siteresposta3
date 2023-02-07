@@ -19,8 +19,18 @@ const Alerts = () => {
                                     </li>
 
                                     <li>
+                                        <span style={{ textDecoration: 'underline' }}>
+                                            07 Março/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <h4 style={{ fontWeight: '600' }}>AV1 de Análise Orientada a Objeto já está disponível!</h4>
 
+                                            </li>
+
+                                        </lu>
                                     </li>
+                                    <hr className='Divider' />
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
@@ -37,7 +47,8 @@ const Alerts = () => {
                                         </lu>
                                     </li>
 
-                                    <hr />
+                                    <hr className='Divider' />
+
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
@@ -51,7 +62,8 @@ const Alerts = () => {
                                         </lu>
                                     </li>
 
-                                    <hr />
+                                    <hr className='Divider' />
+
 
                                     <li>
 
