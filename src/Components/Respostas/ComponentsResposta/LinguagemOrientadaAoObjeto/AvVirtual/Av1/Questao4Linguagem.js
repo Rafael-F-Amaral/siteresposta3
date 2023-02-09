@@ -1,6 +1,6 @@
 import React from 'react'
 import AlternativasProps from '../AlternativasProps'
-import RespostasDATA from '../../../../../ArraysRespostas/AnáliseOrientadaAoObjetoDATA/AvVirtual/Av1/Questao4DATA'
+import RespostasDATA from '../../../../../ArraysRespostas/LinguagemOrientadaAoObjetoDATA/AvVirtual/Av1/Questao4DATA'
 
 
 const Questao1Analise = () => {
