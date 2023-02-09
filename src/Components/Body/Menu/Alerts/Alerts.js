@@ -15,8 +15,19 @@ const Alerts = () => {
                                     </li>
 
                                     <li>
+                                        <span style={{ textDecoration: 'underline' }}>
+                                            09 Março/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <h4 style={{ fontWeight: '600' }}>AV2 de Análise Orientada a Objeto já está disponível!</h4>
+                                                <h4 style={{ fontWeight: '600' }}>AV1 e AV2 de Interface e Usabilidade já está disponível!</h4>
+                                                <h4 style={{ fontWeight: '600' }}>Optativa será disponbilizada para todos no grupo dos grupos.</h4>
+                                            </li>
 
+                                        </lu>
                                     </li>
+                                    <hr className='Divider' />
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>

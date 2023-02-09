@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'Luísa, de 22 anos está terminando sua faculdade em química, mas seu sonho sempre foi cantar. Ela desenvolve produções amadoras de composições próprias em formato de áudio por conta própria em seu tempo livre, mas tem dificuldade de encontrar uma forma de compartilhar essas produções de forma barata e sem precisar produzir vídeos, para saber se as pessoas vão gostar. Então ela encontrou a plataforma X que permite que ela envie e compartilhe estas produções sem custo, e ainda pode receber algo por isso. Ela está acessando a plataforma pela primeira vez e para iniciar está criando seu perfil e fazendo o envio da sua primeira música..',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) Perfis de usuário/ Personas.',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) Jornada do usuário.',
         id: '5'
         ,
 
-        questao3: '',
+        correto3: 'c) Cenários de uso.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) Contextos de uso.',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) Storyboard/ Narrativa gráfica.',
         id: '8'
     }
 

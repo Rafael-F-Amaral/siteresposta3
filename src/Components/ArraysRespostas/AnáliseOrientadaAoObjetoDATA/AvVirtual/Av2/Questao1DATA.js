@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A ênfase do Diagrama de Comunicação está em demonstrar exatamente a ligação entre os objetos representados pela Lifeline, que participam da realização de um caso de uso.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) A mensagem “9:cadasstrarItem( )” representa uma mensagem construtora para o objeto “item:ItemPedido”',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) O elemento “produto:Produto” representa uma Linha de Vida (Lifeline), indicando uma coleção de instâncias da classe “Pedido”.',
         id: '5'
         ,
 
-        questao3: '',
+        correto3: 'c) O elemento “item:ItemPedido” representa um Multiobjeto, ou seja, uma coleção de objetos de uma mesma classe, participando da interação.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) O elemento “FormPedido” representa uma Linha de Vida (Lifeline), indicando uma coleção de objetos do tipo interface do sistema. ',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) O elemento “pedido:Pedido” representa uma Linha de Vida (Lifeline), indicando uma coleção de instâncias da classe “Pedido”.',
         id: '8'
     }
 

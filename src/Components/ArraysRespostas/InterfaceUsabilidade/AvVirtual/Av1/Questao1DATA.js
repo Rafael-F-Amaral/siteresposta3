@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'Com a necessidade tanto da indústria quanto da academia para um consenso em relação ao conceito de usabilidade, em 1998 a ISO (International Organization for Standardization) publicou a norma "Requisitos ergonômicos para o trabalho com dispositivos de interação visual - Parte 11: orientações sobre usabilidade" (ABNT, 2011)',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) Satisfação, facilidade e rapidez de uso',
         id: '4'
         ,
 
-        questao2: '',
+        correto2: 'b) Eficácia, eficiência e satisfação',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) Qualidade, experiência do usuário e agilidade',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) Eficácia, eficiência e facilidade de uso',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) Efetividade, rapidez e facilidade de uso',
         id: '8'
     }
 

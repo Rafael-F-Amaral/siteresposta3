@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'As interfaces gráficas são amplamente utilizadas hoje em dia em inúmeros tipos de sistemas digitais, por serem mais intuitivas e mais fáceis de serem utilizadas. Em que década surgiram as primeiras interfaces gráficas nos computadores?',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) 1940',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) 1950',
         id: '5'
         ,
 
-        questao3: '',
+        correto3: 'c) 1960',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) 1970',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) 1980',
         id: '8'
     }
 
