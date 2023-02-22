@@ -45,7 +45,7 @@ function App() {
                         <span style={{ fontWeight: '700' }}>AV2 EMPREENDEDORISMO</span><br />
                         1.A, 2.D, 3.E, 4.C, 5.B
                     </p>
-                    <p style={{ fontSize: '20px' }}><a href='https://drive.google.com/drive/folders/1yveFhBzFudJT7hqBqsuJwANE04Ia_uln?usp=share_link' target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
+                    <p style={{ fontSize: '20px' }}><a href='https://encurtador.com.br/bzFLY' target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
 
 
                     <p>
