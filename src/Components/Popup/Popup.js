@@ -1,19 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Popup from './Popup2';
 import './Popup.css';
 import { Link } from 'react-router-dom';
 
 function App() {
     const [showPopup, setShowPopup] = useState(true);
+    const popupRef = useRef();
 
     function handleClosePopup() {
         setShowPopup(false);
     }
 
+    function handleClickOutside(event) {
+        if (popupRef.current && !popupRef.current.contains(event.target)) {
+            setShowPopup(false);
+        }
+    }
+
+    function handleLinkClick() {
+        setShowPopup(false);
+    }
+
+    // adiciona um listener para o evento click no document
+    // e chama a função handleClickOutside quando ocorre
+    // fora da janela do popup
+    React.useEffect(() => {
+        document.addEventListener('click', handleClickOutside);
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, []);
+
     return (
         <div className="App">
             {showPopup && (
-                <Popup closePopup={handleClosePopup}>
+                <Popup ref={popupRef} closePopup={handleClosePopup}>
                     <h2> Informativo Site Respostas! </h2>
                     <p><span style={{ textDecoration: 'underline', fontWeight: '600' }}>Respostas OPTATIVA 3° SEMESTRE!</span>
                     </p>
@@ -24,19 +45,17 @@ function App() {
                         <span style={{ fontWeight: '700' }}>AV2 EMPREENDEDORISMO</span><br />
                         1.A, 2.D, 3.E, 4.C, 5.B
                     </p>
-                    <p style={{ fontSize: '20px' }}><a href='https://drive.google.com/drive/folders/1yveFhBzFudJT7hqBqsuJwANE04Ia_uln?usp=share_link' target="_blank" rel="noopener noreferrer">DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
+                    <p style={{ fontSize: '20px' }}><a href='https://drive.google.com/drive/folders/1yveFhBzFudJT7hqBqsuJwANE04Ia_uln?usp=share_link' target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
 
 
                     <p>
                         <span style={{fontSize: '18px', color:'tomato'}}>
-                            Se quiser e puder ajudar o site a continuar a dar suport<br /> considere fazer uma doação.
-                            clicando em <a href='https://siterespostas.com.br/pix'>Meu Pix</a>!
+                            Considere ajudar o site fazendo uma doação PIX!<br />
+                            localizado abaixo do botão RESPOSTAS!!
                         </span>
                     </p>
                 </Popup>
-
             )}
-
         </div>
     );
 }
