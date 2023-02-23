@@ -2,6 +2,8 @@ import React, { useState, useRef } from 'react';
 import Popup from './Popup2';
 import './Popup.css';
 import { Link } from 'react-router-dom';
+import DOC from '../Popup/modelo-projeto-integrado.doc'
+
 
 function App() {
     const [showPopup, setShowPopup] = useState(true);
@@ -45,7 +47,7 @@ function App() {
                         <span style={{ fontWeight: '700' }}>AV2 EMPREENDEDORISMO</span><br />
                         1.A, 2.D, 3.E, 4.C, 5.B
                     </p>
-                    <p style={{ fontSize: '20px' }}><a href='https://encurtador.com.br/bzFLY' target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
+                    <p style={{ fontSize: '20px' }}><a href={DOC} target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
 
 
                     <p>
