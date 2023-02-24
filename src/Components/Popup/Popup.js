@@ -41,17 +41,27 @@ function App() {
                     <p><span style={{ textDecoration: 'underline', fontWeight: '600' }}>Respostas OPTATIVA 3° SEMESTRE!</span>
                     </p>
 
-                    <p><span style={{ fontWeight: '700' }}>AV1 EMPREENDEDORISMO</span><br />
+                    <p>
+                        <span style={{ fontWeight: '700' }}>AV1 EMPREENDEDORISMO</span><br />
                         1.E, 2.E, 3.C, 4.E, 5.B<br />
 
                         <span style={{ fontWeight: '700' }}>AV2 EMPREENDEDORISMO</span><br />
                         1.A, 2.D, 3.E, 4.C, 5.B
                     </p>
+
+                    <p>
+                        <span style={{ fontWeight: '700', }}>TUTORA JOICE E NOSSO AMIGO DO GRUPO <span>WOLNEY</span> DISPONIBILIZOU<br /> EXERCÍCIOS/RESPOSTAS DAS TELEAULAS ANÁLISE ORIENTADA AO OBJETO<br /> PARA DOWNLOAD!</span><br />
+                        <a href='https://drive.google.com/drive/folders/1hce0ydSSxorLF6VNLCBuiE_tZhdYRel2?usp=share_link' target='_blank'>DOWNLOAD ARQUIVOS</a><br />
+
+                    </p>
+
+
+
                     <p style={{ fontSize: '20px' }}><a href={DOC} target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
 
 
                     <p>
-                        <span style={{fontSize: '18px', color:'tomato'}}>
+                        <span style={{ fontSize: '18px', color: 'tomato' }}>
                             Considere ajudar o site fazendo uma doação PIX!<br />
                             localizado abaixo do botão RESPOSTAS!!
                         </span>
