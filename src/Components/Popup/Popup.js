@@ -50,7 +50,7 @@ function App() {
                     </p>
 
                     <p>
-                        <span style={{ fontWeight: '700', }}>TUTORA JOICE E NOSSO AMIGO DO GRUPO <span>WOLNEY</span> DISPONIBILIZOU<br /> EXERCÍCIOS/RESPOSTAS DAS TELEAULAS ANÁLISE ORIENTADA AO OBJETO<br /> PARA DOWNLOAD!</span><br />
+                        <span style={{ fontWeight: '700', }}>TUTOR DISPONIBILIZOU<br /> EXERCÍCIOS/RESPOSTAS DAS TELEAULAS ANÁLISE ORIENTADA AO OBJETO<br /> PARA DOWNLOAD!</span><br />
                         <a href='https://drive.google.com/drive/folders/1hce0ydSSxorLF6VNLCBuiE_tZhdYRel2?usp=share_link' target='_blank'>DOWNLOAD ARQUIVOS</a><br />
 
                     </p>
