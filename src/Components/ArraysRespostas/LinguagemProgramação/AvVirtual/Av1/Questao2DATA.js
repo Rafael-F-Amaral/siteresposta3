@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A condição para que um aluno seja aprovado é que ele tenha média final de 7 ou superior e tenha 5 ou menos faltas. Tal condição pode ser implementada através de uma estrutura condicional na linguagem Python.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        correto1: 'a) if media_final >= 7 and faltas <= 5: print("aprovado") ',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b)if media_final > 7 and faltas < 5: print("aprovado") ',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c)if media_final > 7 and faltas <= 5: print("aprovado") ',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) if media_final >= 7 and faltas < 5:print("aprovado") ',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) if media_final >= 7 or faltas <= 5: print("aprovado")',
         id: '8'
     }
 

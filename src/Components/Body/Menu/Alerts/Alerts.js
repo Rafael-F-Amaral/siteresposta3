@@ -7,6 +7,7 @@ const Alerts = () => {
             <div className='ContentPix'>
                 <div>
                     <div>
+                    
                         <div className='ContentP2'>
                             <p>
                                 <ul>
@@ -16,7 +17,20 @@ const Alerts = () => {
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
-                                            09 Março/2023
+                                            03 Março/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <h4 style={{ fontWeight: '600' }}>AV1 de Linguagem de Programação já está disponível!</h4>
+                                               
+                                            </li>
+
+                                        </lu>
+                                    </li>
+
+                                    <li>
+                                        <span style={{ textDecoration: 'underline' }}>
+                                            09 Fevereiro/2023
                                         </span>
                                         <lu>
                                             <li>
@@ -31,7 +45,7 @@ const Alerts = () => {
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
-                                            07 Março/2023
+                                            07 Fevereiro/2023
                                         </span>
                                         <lu>
                                             <li>
@@ -45,7 +59,7 @@ const Alerts = () => {
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
-                                            06 Março/2023
+                                            06 Fevereiro/2023
                                         </span>
                                         <lu>
                                             <li>
@@ -63,7 +77,7 @@ const Alerts = () => {
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
-                                            05 Março/2023
+                                            05 Fevereiro/2023
                                         </span>
                                         <lu>
                                             <li>
@@ -79,7 +93,7 @@ const Alerts = () => {
                                     <li>
 
                                         <span style={{ textDecoration: 'underline' }}>
-                                            27 Fevereiro/2023
+                                            27 Janeiro/2023
                                         </span>
                                         <lu>
                                             <li>
