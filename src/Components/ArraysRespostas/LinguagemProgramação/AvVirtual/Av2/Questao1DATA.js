@@ -12,7 +12,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'O desenvolvimento de um software envolve boas práticas de programação. Em Python, todos os import devem ficar no _______ do arquivo. Ainda segundo a documentação, é uma boa prática declarar primeiro as bibliotecas ______, seguido das bibliotecas _______ e por fim, _______ criados para a aplicação. Cada bloco deve ser separado por uma linha em branco.',
         id: '2'
         ,
 
@@ -20,23 +20,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) começo; de terceiros; padrão; os módulos específicos',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) final; padrão; de terceiros; os módulos específicos',
         id: '5'
         ,
 
-        questao3: '',
+        correto3: 'c) começo; padrão; de terceiros; os módulos específicos',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) começo; padrão; built-in; módulos de terceiros',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) final; padrão; built-in; módulos de terceiros',
         id: '8'
     }
 

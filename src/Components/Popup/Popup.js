@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Popup from './Popup2';
 import './Popup.css';
-import { Link } from 'react-router-dom';
 import DOC from '../Popup/modelo-projeto-integrado.doc'
 
 
@@ -51,13 +50,13 @@ function App() {
 
                     <p>
                         <span style={{ fontWeight: '700', }}>TUTOR DISPONIBILIZOU<br /> EXERCÍCIOS/RESPOSTAS DAS TELEAULAS ANÁLISE ORIENTADA AO OBJETO<br /> PARA DOWNLOAD!</span><br />
-                        <a href='https://drive.google.com/drive/folders/1hce0ydSSxorLF6VNLCBuiE_tZhdYRel2?usp=share_link' target='_blank'>DOWNLOAD ARQUIVOS</a><br />
+                        <a href='https://drive.google.com/drive/folders/1hce0ydSSxorLF6VNLCBuiE_tZhdYRel2?usp=share_link' target="_blank" rel="noreferrer">DOWNLOAD ARQUIVOS</a><br />
 
                     </p>
 
 
 
-                    <p style={{ fontSize: '20px' }}><a href={DOC} target="_blank" rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
+                    <p style={{ fontSize: '20px' }}><a href={DOC}   rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
 
 
                     <p>

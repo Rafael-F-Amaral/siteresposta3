@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        correto1: 'a) V - V - V',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) V - F - F',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) V - V - F',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) F - V - V',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) F - F - V',
         id: '8'
     }
 
