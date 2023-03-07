@@ -11,7 +11,8 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: "A condição para um aluno ser aprova é ter média final, de 7 pontos ou superior. Essa condição pode ser implementada na linguagem Python, por meio de uma estrutura condicional"
+        ,
         id: '2'
         ,
 
@@ -19,23 +20,24 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: 'sssss',
+        questao1: 
+        "a) if media_final > 7: print aprovado",
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) elif media_final >= 7: print("aprovado") ',
         id: '5'
         ,
 
-        questao3: '',
+        correto3: 'c) if media_final >= 7: print("aprovado") ',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) if media_final < 7: print("aprovado")',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) elif media_final < 7: print("aprovado") ',
         id: '8'
     }
 
