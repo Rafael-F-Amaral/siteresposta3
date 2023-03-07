@@ -8,49 +8,49 @@ import RespostasDATA from '../../../../ArraysRespostas/AnáliseOrientadaAoObjeto
 const AvVirtualAnalise = (props) => {
   return (
     <div className='ContainerRespostas' >
-            {RespostasDATA.map(({ item, id, index, titulo, questaonumero, enunciado, alternativas, questao1, questao2, questao3, questao4, questao5 }) => (
-      <div>
-        <section className='GridResposta'>
+      {RespostasDATA.map(({ item, id, index, titulo, questaonumero, enunciado, alternativas, questao1, questao2, questao3, questao4, questao5 }) => (
+        <div>
+          <section className='GridResposta'>
 
-          <div className='teste'>
-            <h2>
-              <AlternativasProps
-                nomemateria='Linguagem de Programação (ADG)'
-              />
-            </h2>
-          </div>
-          <div>
-            <div>
-
-              <div className='ContentButton2'>
-                <ul>
-
-                  <NavLink to='av1programacaovirtual2/questao1virtualprogramacao'>
-                    <li>
-                      <ButtonResposta
-                        adg='av 1'
-                      />
-                    </li>
-                  </NavLink>
-
-                  <Link to='av2programacaovirtual2/questao1virtualprogramacao2'>
-                    <li><ButtonResposta
-                      adg='av 2'
-                    />
-                    </li>
-                  </Link>
-
-
-
-
-                </ul>
-                <Outlet />
-              </div>
+            <div className='teste'>
+              <h2>
+                <AlternativasProps
+                  nomemateria='Linguagem de Programação (AV)'
+                />
+              </h2>
             </div>
-          </div >
-        </section >
-      </div >
-                  ))}
+            <div>
+              <div>
+
+                <div className='ContentButton2'>
+                  <ul>
+
+                    <NavLink to='av1programacaovirtual2/questao1virtualprogramacao'>
+                      <li>
+                        <ButtonResposta
+                          adg='av 1'
+                        />
+                      </li>
+                    </NavLink>
+
+                    <Link to='av2programacaovirtual2/questao1virtualprogramacao2'>
+                      <li><ButtonResposta
+                        adg='av 2'
+                      />
+                      </li>
+                    </Link>
+
+
+
+
+                  </ul>
+                  <Outlet />
+                </div>
+              </div>
+            </div >
+          </section >
+        </div >
+      ))}
     </div >
 
   )

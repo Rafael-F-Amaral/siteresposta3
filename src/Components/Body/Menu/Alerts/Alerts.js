@@ -17,6 +17,19 @@ const Alerts = () => {
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
+                                            07 Março/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <h4 style={{ fontWeight: '600' }}>AV2 de Linguagem de Programação já está disponível!</h4>
+                                               
+                                            </li>
+
+                                        </lu>
+                                    </li>
+
+                                    <li>
+                                        <span style={{ textDecoration: 'underline' }}>
                                             03 Março/2023
                                         </span>
                                         <lu>

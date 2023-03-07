@@ -70,7 +70,7 @@ const Footer = () => {
                 <hr class="solid" />
                 <div>
                     <h3>Contato</h3>
-                    <p>Se você quiser entrar me contato por qualquer motivo, sejam eles: Elogio, críticas, dúvidas ou sugestões, você pode mandar um email para: <span style={{ color: "red", fontWeight: "600" }}>rafaelbmo@live.com</span> com o assunto “SITE RESPOSTA”.</p>
+                    <p>Se você quiser entrar em contato por qualquer motivo, sejam eles: Elogio, críticas, dúvidas ou sugestões, você pode mandar um email para: <span style={{ color: "red", fontWeight: "600" }}>rafaelbmo@live.com</span> com o assunto “SITE RESPOSTA”.</p>
                 </div>
             </div>
         </footer>

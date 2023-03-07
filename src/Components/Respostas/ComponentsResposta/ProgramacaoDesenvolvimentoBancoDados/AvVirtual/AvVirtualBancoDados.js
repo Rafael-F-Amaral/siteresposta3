@@ -12,7 +12,7 @@ const AvVirtualAnalise = (props) => {
 
             <div className='teste'  style={{marginBottom:'50px'}}>
               <h2>
-                Programação e Desenvolvimento <br /> de Banco de Dados (APP)
+                Programação e Desenvolvimento <br /> de Banco de Dados (AV)
               </h2>
             </div>
             <div>

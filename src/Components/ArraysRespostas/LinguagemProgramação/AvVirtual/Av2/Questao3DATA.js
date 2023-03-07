@@ -1,7 +1,7 @@
 
 const RespostasDATA = [
     {
-        titulo: 'Avaliação Virtual(AV2)'
+        titulo: 'Avaliação Virtual (AV2)'
         ,
         id: '0'
         ,
@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'O objetivo de um modelo de dados é ter certeza de que todos os objetos de dados existentes em determinado contexto e requeridos pela aplicação e pelo banco de dados estão completamente representados e com precisão. O modelo de dados também deve ser detalhado o bastante para ser usado pelo implementador (DBA) do banco de dados como uma espécie de fotocópia para construir o banco de dados físico.',
         id: '2'
         ,
 

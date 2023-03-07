@@ -15,7 +15,7 @@ const AvVirtualAnalise = (props) => {
           <div className='teste'>
             <h2>
               <AlternativasProps
-                nomemateria='Linguagem Orientada a Objetvo (ADG)'
+                nomemateria='Linguagem Orientada a Objetvo (AV)'
               />
             </h2>
           </div>

@@ -15,7 +15,7 @@ const AvVirtualAnalise = (props) => {
           <div className='teste'>
             <h2>
               <AlternativasProps
-                nomemateria='Ed - Design Think (ADG)'
+                nomemateria='Ed - Design Think (AV)'
               />
             </h2>
           </div>
