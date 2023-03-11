@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='ContentFooter '>
                 <div>
                     <h3>Ajude o site!</h3>
-                    <p>Gosta do site? Acha que ele deveria receber mais reconhecimento?<p> Ajude o site com um pix. Qualquer valor é muito bem-vindo e de extrema importância para a continuidade do site.
+                    <p>Gosta do site? Acha que ele deveria receber mais reconhecimento?<p> Ajude o site com um pix. Qualquer valor é muito bem-vindo e de extrema importância para a continuidade do site!
                         <p>
                             Você pode acessar o PIX
                             <Link
