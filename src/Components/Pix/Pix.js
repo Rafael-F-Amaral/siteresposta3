@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom'
 const Pix = () => {
   return (
     <div className='ContainerPix'>
-      <h1>AJUDE O SITE</h1>
+      <h1>AJUDE O SITE!</h1>
       <div className='ContentPix'>
         <div>
           <div>
