@@ -36,26 +36,6 @@ function App() {
         <div className="App">
             {showPopup && (
                 <Popup ref={popupRef} closePopup={handleClosePopup}>
-                    <h2> Informativo Site Respostas! </h2>
-                    <p><span style={{ textDecoration: 'underline', fontWeight: '600' }}>Respostas OPTATIVA 3° SEMESTRE!</span>
-                    </p>
-
-                    <p>
-                        <span style={{ fontWeight: '700' }}>AV1 EMPREENDEDORISMO</span><br />
-                        1.E, 2.E, 3.C, 4.E, 5.B<br />
-
-                        <span style={{ fontWeight: '700' }}>AV2 EMPREENDEDORISMO</span><br />
-                        1.A, 2.D, 3.E, 4.C, 5.B
-                    </p>
-
-                    <p>
-                        <span style={{ fontWeight: '700', }}>TUTOR DISPONIBILIZOU<br /> EXERCÍCIOS/RESPOSTAS DAS TELEAULAS ANÁLISE ORIENTADA AO OBJETO<br /> PARA DOWNLOAD!</span><br />
-                        <a href='https://drive.google.com/drive/folders/1hce0ydSSxorLF6VNLCBuiE_tZhdYRel2?usp=share_link' target="_blank" rel="noreferrer">DOWNLOAD ARQUIVOS</a><br />
-
-                    </p>
-
-
-
                     <p style={{ fontSize: '20px' }}><a href={DOC}   rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
 
 
