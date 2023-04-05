@@ -62,11 +62,13 @@ function App() {
                         </a>
                     </div>
 
+                    {/*
                     <p style={{ fontSize: '20px', textAlign: 'center' }}>
                         <a href={DOC} rel="noopener noreferrer" onClick={handleLinkClick}>
                             DOWNLOAD MODELO PROJETO INTEGRADO!
                         </a>
                     </p>
+*/}
 
 
                     {/* 
