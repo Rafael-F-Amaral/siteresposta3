@@ -1,3 +1,45 @@
+.Aviso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffcc80;
+    border-radius: 5px;
+    margin-bottom: 2px;
+  }
+
+  .Aviso2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dbff80;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+  }
+
+  .Aviso2 p {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  
+  .Aviso p {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  
+  
+  
+
 .popup {
     position: fixed;
     top: 0;
@@ -9,22 +51,41 @@
     justify-content: center;
     align-items: center;
     z-index: 999;
-}
-
-.App>h2 {
-    font-size: 8px;
+    margin: auto;
 }
 
 .popup-inner {
-    background-color: #D4D3F6;
+    background-color: #d4d3f6;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     position: relative;
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 90%;
     overflow-y: auto;
 }
+
+.popup-image {
+    display: flex;
+    justify-content: center;
+    max-height: 70vh;
+}
+
+
+.popup-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.popup-inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 .close-btn {
     position: absolute;
@@ -39,4 +100,8 @@
 
 .close-btn:hover {
     color: #a3a3a3;
+}
+
+.App>h2 {
+    font-size: 8px;
 }
