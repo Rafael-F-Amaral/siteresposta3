@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A Loja Barateira está iniciando uma nova campanha de marketing, e pretende monitorar e atingir com mais eficiência o seu publico alvo. Para isso a equipe de Marketing solicitou uma listagem contendo o produto mais barato, o mais caro e o preço médio dos produtos da loja.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) SELECT nome, LOW(valor) from PRODUTOS;',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) SELECT nome, MIN(valor) from PRODUTOS;',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) SELECT nome, LOW(valor) from PRODUTOS;',
         id: '6'
         ,
 
-        questao4: '',
+        correto4: 'd) SELECT nome, MIN(valor) from PRODUTOS;',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) SELECT nome, LOW(valor) from PRODUTOS;',
         id: '8'
     }
 

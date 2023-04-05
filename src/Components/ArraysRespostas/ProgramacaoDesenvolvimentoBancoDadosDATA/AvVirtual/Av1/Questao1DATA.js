@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A resolução Nº 553/10 da ANATEL de 14/12/2010 determinou que fosse implantado o 9º(nono) dígito aos números de telefone celular entre 07/2012 e 11/2016.',
         id: '2'
         ,
 
@@ -19,23 +19,25 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) Linguagem de Consulta a Dados (D.Q.L. – Data Query Language) e Linguagem de Controle de Dados (D.C.L. – Data Control Language)',
         id: '4'
         ,
 
-        questao2: '',
+        correto2: 'b) Linguagem de Definição de Dados (D.D.L. - Data Definition Language) e Linguagem de Manipulação dos Dados (D.M.L. – Data Manipulation Language).'
+        
+        ,
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) Linguagem de Manipulação dos Dados (D.M.L. – Data Manipulation Language) e Linguagem de Transação de Dados (D.T.L. – Data Transaction Language)',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) Linguagem de Definição de Dados (D.D.L. – Data Definition Language) e Linguagem de Controle de Dados (D.C.L. – Data Control Language)',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) Linguagem de Consulta a Dados (D.Q.L. – Data Query Language) e Linguagem de Transação de Dados (D.T.L. – Data Transaction Language)',
         id: '8'
     }
 

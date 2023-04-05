@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A DML (linguagem de manipulação de dados) é um vocabulário usado para recuperar e trabalhar com dados em qualquer banco de dados. São instruções para adicionar, modificar, consultar ou remover dados desse banco de dados, porém quando aplicadas de maneira incorreta podem causar sérios danos. Quando se fala de apagar um registro a instrução delete se faz necessária.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        correto1: 'a) WHERE',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) LIMIT',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) FROM',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) ORDER BY',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) GROUP BY',
         id: '8'
     }
 

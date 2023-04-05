@@ -12,7 +12,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'Segundo Silberschatz (2010), as condições para se efetuar uma junção, depende diretamente do tipo de junção e uma condição de junção, dessa forma com o SQL será possível retornar relações como resultados.',
         id: '2'
         ,
 
@@ -20,23 +20,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        correto1: 'a) V - V - F - V',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) F - V - V - F',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) F - F - V - V',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) V - F - F - V',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) V - V - F - F',
         id: '8'
     }
 

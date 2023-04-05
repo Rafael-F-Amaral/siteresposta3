@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'O grupo Metas ao receber uma proposta de diversificação de produtos, resolveu testar o impacto dos mesmos no funcionamento do sistema, ao que a equipe de T.I. fez uma cópia do sistema + Banco de dados em um servidor paralelo e procedeu a criação de um ponto de restauração chamado "LastPoint"',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) ROLLBACK TO LAST SAVEPOINT;',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) UPDATE SAVEPOINT LastPoint;',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) RESTORE SAVEPOINT LastPoint;',
         id: '6'
         ,
 
-        questao4: '',
+        correto4: 'd) ROLLBACK TO SAVEPOINT LastPoint;',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) ROLLBACK TO LastPoint;',
         id: '8'
     }
 

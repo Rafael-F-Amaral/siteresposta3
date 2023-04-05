@@ -7,7 +7,7 @@ const Alerts = () => {
             <div className='ContentPix'>
                 <div>
                     <div>
-                    
+
                         <div className='ContentP2'>
                             <p>
                                 <ul>
@@ -17,12 +17,30 @@ const Alerts = () => {
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
+                                            05 Abril/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <h4 style={{ fontWeight: '600' }}>AV1 e AV2 de Programação e Desenvolvimento
+                                                    de Banco de Dados já está disponível!</h4>
+
+                                            </li>
+
+                                        </lu>
+                                    </li>
+
+
+
+
+
+                                    <li>
+                                        <span style={{ textDecoration: 'underline' }}>
                                             07 Março/2023
                                         </span>
                                         <lu>
                                             <li>
                                                 <h4 style={{ fontWeight: '600' }}>AV2 de Linguagem de Programação já está disponível!</h4>
-                                               
+
                                             </li>
 
                                         </lu>
@@ -35,7 +53,7 @@ const Alerts = () => {
                                         <lu>
                                             <li>
                                                 <h4 style={{ fontWeight: '600' }}>AV1 de Linguagem de Programação já está disponível!</h4>
-                                               
+
                                             </li>
 
                                         </lu>
