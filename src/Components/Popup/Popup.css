@@ -62,7 +62,6 @@
     position: relative;
     max-width: 90%;
     max-height: 90%;
-    overflow-y: auto;
 }
 
 .popup-image {
