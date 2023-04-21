@@ -10,6 +10,7 @@ import Respostas from './Components/Respostas/Respostas';
 
 
 
+
 /* Análise Orientado a Objeto */
 import AtvAprendizagemAnalise from './Components/Respostas/ComponentsResposta/AnáliseOrientadaAoObjeto/AtvAprendizagem/AtvAprendizagemAnalise';
 import AtvDiagnosticaAnalise from './Components/Respostas/ComponentsResposta/AnáliseOrientadaAoObjeto/AtvDiagnostica/AtvDiagnosticaAnalise';

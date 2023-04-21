@@ -2,6 +2,8 @@ import React, { useState, useRef } from 'react';
 import Popup from './Popup2';
 import './Popup.css';
 import DOC from '../Popup/modelo-projeto-integrado.doc'
+import Propaganda from './propaganda-bruno.jpeg'
+import Alerta from './alerta.png'
 
 
 function App() {
@@ -34,40 +36,55 @@ function App() {
 
     return (
         <div className="App">
+        {/* 
             {showPopup && (
                 <Popup ref={popupRef} closePopup={handleClosePopup}>
-                    <h2> Informativo Site Respostas! </h2>
-                    <p><span style={{ textDecoration: 'underline', fontWeight: '600' }}>Respostas OPTATIVA 3° SEMESTRE!</span>
+                    <div
+                        className='Aviso'>
+
+                        <p>
+                            Não consegue ler? Toque na imagem para ampliar
+                        </p>
+                    </div>
+
+                    <div className="popup-image">
+                        <a href="https://i.imgur.com/IWZ5SVP.jpg" target="_blank">
+                            <img src={Propaganda} alt="Minha imagem" className="popup-image" />
+                        </a>
+
+                    </div>
+                    <div
+                        className='Aviso2'>
+
+                        <a href="https://encurtador.com.br/zAQUX" target="_blank">
+                            <p style={{ color: 'green', textDecoration: 'underline' }}>
+                                GARANTIR AGORA MEU PROJETO INTEGRADO!!!
+                            </p>
+                        </a>
+                    </div>
+
+                    {/*
+                    <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                        <a href={DOC} rel="noopener noreferrer" onClick={handleLinkClick}>
+                            DOWNLOAD MODELO PROJETO INTEGRADO!
+                        </a>
                     </p>
-
-                    <p>
-                        <span style={{ fontWeight: '700' }}>AV1 EMPREENDEDORISMO</span><br />
-                        1.E, 2.E, 3.C, 4.E, 5.B<br />
-
-                        <span style={{ fontWeight: '700' }}>AV2 EMPREENDEDORISMO</span><br />
-                        1.A, 2.D, 3.E, 4.C, 5.B
-                    </p>
-
-                    <p>
-                        <span style={{ fontWeight: '700', }}>TUTOR DISPONIBILIZOU<br /> EXERCÍCIOS/RESPOSTAS DAS TELEAULAS ANÁLISE ORIENTADA AO OBJETO<br /> PARA DOWNLOAD!</span><br />
-                        <a href='https://drive.google.com/drive/folders/1hce0ydSSxorLF6VNLCBuiE_tZhdYRel2?usp=share_link' target="_blank" rel="noreferrer">DOWNLOAD ARQUIVOS</a><br />
-
-                    </p>
+*/}
 
 
-
-                    <p style={{ fontSize: '20px' }}><a href={DOC}   rel="noopener noreferrer" onClick={handleLinkClick}>DOWNLOAD MODELO PROJETO INTEGRADO!</a></p>
-
-
-                    <p>
+                    {/* 
+                     <p>
                         <span style={{ fontSize: '18px', color: 'tomato' }}>
                             Considere ajudar o site fazendo uma doação PIX!<br />
-                            localizado abaixo do botão RESPOSTAS!!
+                            localizado abaixo do botão RESPOSTAS!!!
                         </span>
                     </p>
-                </Popup>
-            )}
-        </div>
+                    
+                    
+                    </Popup>
+                    )}
+                */}
+                    </div>
     );
 }
 
