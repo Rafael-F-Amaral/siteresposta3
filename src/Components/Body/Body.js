@@ -17,7 +17,7 @@ const Body = () => {
         <a className='CardStyle' href='https://linktr.ee/SiteResposta' target="_blank" rel="noreferrer">
           <Card
             download='DOWNLOAD DE LIVROS'
-            textDownload='Aqui você encontrará download dos livros atuais e semestres passados, aulas, videoaulas e documentos gerais sobre programação!'
+            textDownload='Aqui você encontrará download dos livros atuais e semestres passados, aulas, videoaulas e documentos gerais sobre programação.'
             ButtonDownload='downloads'
           />
         </a>
