@@ -14,9 +14,11 @@ const Body = () => {
 
       <div className='wrapper'>
 
-        <a className='CardStyle' href='https://linktr.ee/SiteResposta' target="_blank" rel="noreferrer">
+        <a className='CardStyle' href='https://linktr.ee/SiteResposta' target="_blank" rel="noreferrer">sss
           <Card
-
+            download='DOWNLOAD DE LIVROS'
+            textDownload='Aqui você encontrará download dos livros atuais e semestres passados, aulas, videoaulas e documentos gerais sobre programação.'
+            ButtonDownload='downloads'
           />
         </a>
 
