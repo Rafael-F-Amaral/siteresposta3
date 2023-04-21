@@ -35,6 +35,7 @@ function App() {
     }, []);
 
     return (
+        {/* 
         <div className="App">
             {showPopup && (
                 <Popup ref={popupRef} closePopup={handleClosePopup}>
@@ -78,13 +79,12 @@ function App() {
                             localizado abaixo do botão RESPOSTAS!!!
                         </span>
                     </p>
-                    */}
-
-
-                </Popup>
-            )}
-        </div>
-
+                    
+                    
+                    </Popup>
+                    )}
+                    </div>
+                */}
     );
 }
 
