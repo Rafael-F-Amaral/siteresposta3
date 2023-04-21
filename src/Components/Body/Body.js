@@ -25,7 +25,7 @@ const Body = () => {
         <a className='CardStyle' href='https://linktr.ee/grupossiteresposta' target='_blank' rel="noreferrer" style={{ textDecoration: 'none !important' }}>
           <Card
             download='GRUPOS E REDES SOCIAIS'
-            textDownload='Aqui você encontrará download dos livros atuais e semestres passados, aulas, videoaulas e documentos gerais sobre programação.'
+            textDownload='Aqui você encontrará download dos livros atuais e semestres passados, aulas, videoaulas e documentos gerais sobre programação!'
             ButtonGrupos='grupos'
           />
         </a>
