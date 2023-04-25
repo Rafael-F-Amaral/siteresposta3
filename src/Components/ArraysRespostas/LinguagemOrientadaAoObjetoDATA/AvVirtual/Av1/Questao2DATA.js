@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A linguagem Java dá suporte aos conceitos de sobrecarga e sobreposição de métodos. Tomando como base a ideia de sobrecarga e sobreposição de métodos em Java, julgue as afirmativas a seguir em (V) Verdadeiras ou (F) Falsas.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) V – V – F – F – V – F.',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) V – F – V – V – V – V.',
         id: '5'
         ,
 
-        questao3: '',
+        correto3: 'c) V – F – V – F – F – V.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) V – F – F – V – V – F.',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) F – V – V – V – V – F.',
         id: '8'
     }
 

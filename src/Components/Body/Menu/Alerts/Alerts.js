@@ -17,6 +17,19 @@ const Alerts = () => {
 
                                     <li>
                                         <span style={{ textDecoration: 'underline' }}>
+                                            25 Abril/2023
+                                        </span>
+                                        <lu>
+                                            <li>
+                                                <h4 style={{ fontWeight: '600' }}>AV1 e AV2 de Linguagem Orientada a Objetos já está disponível!</h4>
+
+                                            </li>
+
+                                        </lu>
+                                    </li>
+
+                                    <li>
+                                        <span style={{ textDecoration: 'underline' }}>
                                             05 Abril/2023
                                         </span>
                                         <lu>

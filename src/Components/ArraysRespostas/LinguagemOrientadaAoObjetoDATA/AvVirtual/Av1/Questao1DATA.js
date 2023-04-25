@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'Existem diversas formas de desenvolver códigos na linguagem Java. O ambiente jdoodle é um ambiente web em que isso é possível.',
         id: '2'
         ,
 
@@ -19,23 +19,24 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) F – V – F – F.',
         id: '4'
         ,
 
-        questao2: '',
+
+        questao2: 'b) F – F – V – V.',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) F – V – F – V.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) V – F – V – F.',
         id: '7'
         ,
 
-        questao5: '',
+        correto5: 'e) F – F – F – V.',
         id: '8'
     }
 

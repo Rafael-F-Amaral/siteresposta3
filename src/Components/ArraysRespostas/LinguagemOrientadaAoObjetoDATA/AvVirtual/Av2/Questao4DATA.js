@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A linguagem Java suporta a execução de aplicações de forma paralela e concorrente. Para se conseguir isso técnicas de multithreading são aplicadas. Um trecho de código relacionado a threads é apresentado a seguir:  ',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) I e II apenas.',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) III e IV apenas.',
         id: '5'
         ,
 
-        questao3: '',
+        correto3: 'c) I e III apenas.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) I, II e III apenas.',
         id: '7'
         ,
 
-        questao5: '',
+        questao5: 'e) II e IV apenas.',
         id: '8'
     }
 
