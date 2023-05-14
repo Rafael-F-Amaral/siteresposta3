@@ -38,23 +38,11 @@ function App() {
     <div className="App">
       {showPopup && (
         <Popup ref={popupRef} closePopup={handleClosePopup}>
-          <div className='Aviso'>
-            <p>
-              Não consegue ler? Toque na imagem para ampliar
-            </p>
-          </div>
+
           <div className="popup-image">
-            <a href="https://i.imgur.com/IWZ5SVP.jpg" target="_blank">
-              <img src={Propaganda} alt="Minha imagem" className="popup-image" />
-            </a>
+<h1><span style={{color:'red', textDecoration:'underline'}}>ATENÇÃO:</span> DEVIDO AO VENCIMENTO<br /> DO DOMÍNIO .COM.BR <br /> O SITE MIGRARÁ PARA:<br /> <a>https://siterespostas3.netlify.app/</a>  <br /><span style={{color:'red', textDecoration:'underline'}}>a partir do dia 29/05</span> </h1>
           </div>
-          <div className='Aviso2'>
-            <a href="https://encurtador.com.br/zAQUX" target="_blank">
-              <p style={{ color: 'green', textDecoration: 'underline' }}>
-                GARANTIR AGORA MEU PROJETO INTEGRADO!!!
-              </p>
-            </a>
-          </div>
+
           {/*
           <p style={{ fontSize: '20px', textAlign: 'center' }}>
             <a href={DOC} rel="noopener noreferrer" onClick={handleLinkClick}>
