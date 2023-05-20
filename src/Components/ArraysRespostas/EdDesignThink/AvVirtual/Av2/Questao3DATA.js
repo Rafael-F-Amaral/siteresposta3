@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'A inovação é a combinação de conhecimentos, tecnologias e esforços humanos que são traduzidos em novos produtos, serviços, processos e tipos de negócios desenvolvidos no intuito de obter sucesso em seus fins comerciais e de aceitação pelo mercado.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) II e III apenas.',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) I e II apenas.',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) I, apenas.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) III, apenas.',
         id: '7'
         ,
 
-        questao5: '',
+        correto5: 'e) I, II e III.',
         id: '8'
     }
 

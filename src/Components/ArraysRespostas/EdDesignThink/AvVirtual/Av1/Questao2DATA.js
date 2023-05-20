@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'As possibilidades de se tornar um empreendedor virtual crescem exponencialmente devido a presença constante da internet em tudo o que fazemos (o dia todo) no nosso dia a dia.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) I, apenas.',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) II, apenas.',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) I e II, apenas.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) I e III, apenas.',
         id: '7'
         ,
 
-        questao5: '',
+        correto5: 'e) II e III, apenas.',
         id: '8'
     }
 

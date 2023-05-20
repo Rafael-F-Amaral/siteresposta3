@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'Saber reconhecer e identificar oportunidades de negócios é, sem dúvida, uma das principais características dos grandes empreendedores, que ficam atentos a todas as situações ao seu redor, em busca de algo ou alguma ideia que possa lhes oferecer chances de lançar um novo produto ou serviço no mercado',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) V - V - F - V',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) F - V - F - V.',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) V - F - F - V.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) F - V - F- F',
         id: '7'
         ,
 
-        questao5: '',
+        correto5: 'e) V - F - V - F.',
         id: '8'
     }
 

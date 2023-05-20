@@ -11,7 +11,7 @@ const RespostasDATA = [
         id: 1
         ,
 
-        enunciado: 'EM BREVE! FIQUE ATENTO AO MENU ATUALIZAÇÕES LOCALIZADO ABAIXO DO BOTÃO "REPOSTA"',
+        enunciado: 'As constantes situações de intersecção entre a área de negócios com a área de tecnologia são exemplos que sugerem o grande desafio de alinhar a comunicação que pode, por vezes, apresentar uma forte barreira cognitiva em se tratando de termos técnicos.',
         id: '2'
         ,
 
@@ -19,23 +19,23 @@ const RespostasDATA = [
         id: '3'
         ,
 
-        questao1: '',
+        questao1: 'a) Coaching.',
         id: '4'
         ,
 
-        questao2: '',
+        questao2: 'b) Mentoring.',
         id: '5'
         ,
 
-        questao3: '',
+        questao3: 'c) Plano de negócios.',
         id: '6'
         ,
 
-        questao4: '',
+        questao4: 'd) Lean startup.',
         id: '7'
         ,
 
-        questao5: '',
+        correto5: 'e) Programação neurolinguística.',
         id: '8'
     }
 
