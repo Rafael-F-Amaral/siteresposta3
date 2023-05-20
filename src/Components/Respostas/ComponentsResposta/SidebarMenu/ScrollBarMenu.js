@@ -131,7 +131,7 @@ const SidebarMenu = (props) => {
                         <div>
                             <ul>
                                 <div className='div1' style={{ textAlign: 'center' }}>
-                                    <h3 >Educação Digital - Design Think</h3></div>
+                                    <h3 >Optativa 1</h3></div>
                                 <div style={{ padding: '10px 20px ', backgroundColor: '#E7E7FF' }}>
                                     <li>
 
