@@ -40,7 +40,7 @@ function App() {
         <Popup ref={popupRef} closePopup={handleClosePopup}>
 
           <div className="popup-image">
-<h1><span style={{color:'red', textDecoration:'underline'}}>ATENÇÃO:</span> DEVIDO AO VENCIMENTO<br /> DO DOMÍNIO .COM.BR <br /> O SITE MIGRARÁ PARA:<br /> <a>https://siterespostas3.netlify.app/</a>  <br /><span style={{color:'red', textDecoration:'underline'}}>a partir do dia 29/05</span> </h1>
+            <h1 style={{fontSize:'3vw'}}><span style={{ color: 'red', textDecoration: 'underline' }}>ATENÇÃO:</span> DEVIDO AO VENCIMENTO<br /> DO DOMÍNIO .COM.BR <br /> O SITE MIGRARÁ PARA:<br /> <a  href="https://siterespostas3.netlify.app/" target="_blank" rel="noopener noreferrer" style={{textDecoration:'underline'}}>https://siterespostas3.netlify.app/</a>  <br /><span style={{ color: 'red', textDecoration: 'underline' }}>a partir do dia 29/05</span> </h1>
           </div>
 
           {/*
