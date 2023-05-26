@@ -7,10 +7,7 @@ import './Card/Card.css'
 const Body = () => {
   return (
     <div className='ContainerBody '>
-      <div className='ImageH1 '>
 
-        <ImageH1 />
-      </div>
 
       <div className='wrapper'>
 
