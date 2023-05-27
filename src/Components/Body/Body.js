@@ -32,7 +32,7 @@ const Body = () => {
           <Card
             download='SITES 1° e 2° SEMESTRE'
             textDownload='Aqui você encontrará links para os sites dos semestres passados. Até o momento o primeiro semestre, segundo semestre e outros.'
-            ButtonDatas='datas'
+            ButtonDatas='sites'
           />
         </a>
       </div>
