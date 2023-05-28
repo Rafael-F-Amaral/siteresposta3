@@ -31,7 +31,7 @@ const Body = () => {
         <a className='CardStyle' href='https://linktr.ee/sitesantigos' target='_blank' rel="noreferrer" style={{ textDecoration: 'none !important' }}>
           <Card
             download='SITES 1° e 2° SEMESTRE'
-            textDownload='Aqui você encontrará links para os sites dos semestres passados. Até o momento o primeiro semestre, segundo semestre e outros.'
+            textDownload='Aqui você encontrará links para os sites dos semestres passados. Todo conteúdo disponibilizado nos sites está relacionado a época em que foi criado.'
             ButtonDatas='sites'
           />
         </a>
