@@ -18,7 +18,7 @@ Ainda no início do aprendizado em front-end, esse site envolve estudos em:
 
 * Ui/Ux Design.
 
-[SiteResposta 3° Semestre](https://sitemodeloportfolio.netlify.app//)
+[SiteResposta 3° Semestre](https://sitemodeloportfolio.netlify.app//){:target="_blank"}
 
 ## ONLINE
 
